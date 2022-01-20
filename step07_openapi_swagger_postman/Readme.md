@@ -7,7 +7,32 @@
   - from insert tab add info with title and version
   - All the information can be added from the insert tab
 - [Designing APIs with Swagger and OpenAPI](https://www.manning.com/books/designing-apis-with-swagger-and-openapi)
+
   - Chapter 04
+
+    ```yml
+    openapi: 3.0.0
+    info:
+      title: FarmStall API
+      version: v1
+    servers:
+      - url: https://farmstall.ponelat.com/v1
+    paths:
+      /reviews:
+        get:
+          description: Get a bunch of reviews.
+          parameters:
+            - name: maxRating
+              description: Filter the reviews by the maximum rating
+              in: query
+              schema:
+                type: number
+          responses:
+            '200':
+              description: A bunch of reviews
+    ```
+
+  - Chapter 05
 
 ## Reading Material
 
