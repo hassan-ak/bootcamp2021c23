@@ -6,7 +6,7 @@
 
 - [OpenApi Swagger postman](./step07_openapi_swagger_postman)
 
-### Class 22 Videos
+### Class 23 Videos
 
 - [English YouTube](https://www.youtube.com/watch?v=sTMD1mCZ27Q)
 - [English Facebook](https://www.facebook.com/fb.anees.ahmed/videos/323448162632593)
