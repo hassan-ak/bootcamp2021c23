@@ -2,6 +2,10 @@
 
 ## Class Notes
 
+- Use [Swagger editor](https://editor.swagger.io/)
+  - Enter open api version
+  - from insert tab add info with title and version
+  - All the information can be added from the insert tab
 - [Designing APIs with Swagger and OpenAPI](https://www.manning.com/books/designing-apis-with-swagger-and-openapi)
   - Chapter 04
 
