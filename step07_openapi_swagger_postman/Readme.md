@@ -3,6 +3,7 @@
 ## Class Notes
 
 - [Designing APIs with Swagger and OpenAPI](https://www.manning.com/books/designing-apis-with-swagger-and-openapi)
+  - Chapter 04
 
 ## Reading Material
 
