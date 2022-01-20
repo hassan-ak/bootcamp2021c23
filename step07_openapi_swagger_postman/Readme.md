@@ -34,6 +34,35 @@
 
   - Chapter 05
 
+    - Status Codes
+      Status | Status text | Description
+      --- | --- | ---
+      101 | Switching Protocols | Typically used to upgrade to a websocket connection
+      200 | Ok | The request was successfully executed
+      201 | Created | A new resource was successfully created
+      301 | Moved Permanently | Redirect to another URL, which the client can always do in future.
+      403 | Forbidden | Elevated permissions are required
+      404 | Not Found | The resource asked for was not found
+      504 | Gateway Timeout | The proxy/gateway could not reach the backend server
+
+    - Status code categories
+      Range | Category | Notes
+      --- | --- | ---
+      1xx | Informational | Most common is when a websocket connection is upgraded
+      2xx | Success | This indicates some form of success like the general or the 200 201 for created
+      3xx | Redirects | The resource has a different location/URI
+      4xx | Client Error | The client did something wrong like misspell a resource or provide invalid details
+      5xx | Server Error | The server hit an error that isn’t a fault of the client
+
+    - Media Types (aka MIME)
+      | MIME | Description |
+      | --- | --- |
+      | text/html | The HTML you get back from a webserver |
+      | text/csv | Comma separate values |
+      | image/png | PNG encoded image |
+      | application/json | JSON data |
+      | application/xml | XML data |
+
 ## Reading Material
 
 - [Design and Prototype an API](https://www.youtube.com/watch?v=r4kb3jOSsmk&ab_channel=Postman)
